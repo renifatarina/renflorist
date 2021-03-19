@@ -1,0 +1,140 @@
+html, body,
+h3, p, div {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+.header-left h3 {
+	margin: 20px 50px;
+	float: left;
+}
+
+.header-right {
+	float: right;
+	margin: 20px 50px;
+	color: #fff;
+	text-decoration: none;
+}
+
+header {
+	background-color: #c44569;
+	height: 60px;
+	color: #fff;
+}
+
+.top-wrapper {
+	text-align: center;
+	color: #c44569;
+	background-image: url("file:///C:/Users/ASUS/Desktop/html_lesson/bg%20bunga%202.webp");
+	background-size: cover;
+	padding: 290px;
+}
+
+.top-wrapper h1 {
+	font-size: 70px;
+}
+
+.top-wrapper p {
+	font-size: 30px;
+}
+
+.heading {
+	text-align: center;
+	color: #e66767;
+	font-size: 30px;
+}
+
+.lesson {
+	float: left;
+	width: 20%;
+	
+}
+
+.lesson-icon {
+	margin-top: 20px;
+	transition:all 0.5s ease-out; 
+	position: relative;
+}
+
+.lesson-icon:hover {
+    transform:scale(1.2);
+}
+
+.lesson-icon img {
+	height: 200px;
+}
+
+.lesson-icon h3 {
+	font-size: 24px;
+}
+
+.lesson p {
+	display: inline-block;
+	margin-top: 30px;
+	width: 80%;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+.lesson h4 {
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+.lesson {
+	text-align: center;
+}
+
+.form {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.section-title {
+	font-size: 30px;
+	border-bottom: 3px solid #c44569;
+}
+
+.form p {
+	text-align: left;
+	padding-left: 610px;
+	padding-top: 10px;
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+
+input, textarea {
+	width: 300px;
+	font-size: 15px;
+	padding: 5px;
+	border: 1px solid #c44569;
+}
+
+.contact-submit {
+	margin-top: 10px;
+	background-color:#ea8685;
+	cursor: pointer;
+	box-shadow: 5px 5px #f7d794;
+}
+
+footer {
+	background-color: #c44569;
+	height: 100px;
+	color: #fff;
+}
+
+footer h3 {
+	margin: 40px 50px;
+	float: left;	
+}
+
+.footer-list ul {
+	float: right;
+	list-style: none;
+	padding-right: 30px;
+}
+
